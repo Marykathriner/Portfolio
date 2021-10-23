@@ -1,0 +1,44 @@
+KansasNew
+<link rel="stylesheet" href="https://use.typekit.net/mwn4mps.css">
+
+KansasNew Thin
+	font-family: kansasnew, serif;
+	font-weight: 100;
+font-style: normal;
+
+KansasNew Regular
+
+	font-family: kansasnew, serif;
+	font-weight: 400;
+	font-style: normal;
+
+KansasNew Medium
+
+	font-family: kansasnew, serif;
+	font-weight: 500;
+	font-style: normal;
+
+KansasNew SemiBold
+
+	font-family: kansasnew, serif;
+	font-weight: 600;
+	font-style: normal;
+
+KansasNew Bold
+
+	font-family: kansasnew, serif;
+	font-weight: 700;
+	font-style: normal;
+
+Cooper Black
+<link rel="stylesheet" href="https://use.typekit.net/mwn4mps.css">
+
+Italic
+	font-family: cooper-black-std,serif;
+	font-weight: 400;
+	font-style: italic;
+
+Normal
+	font-family: cooper-black-std,serif;
+	font-weight: 400;
+	font-style: normal;
