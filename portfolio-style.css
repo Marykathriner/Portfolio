@@ -18,7 +18,7 @@ h2 {
 p {
     letter-spacing: 0.7px;
     font-size: 15px;
-    margin: 20px 150px;
+    margin: 20px 20px;
 }
 
 a {
@@ -27,34 +27,55 @@ a {
 
 nav {
     background-color: #F9EED9;
-    height: 80px;
+    color: black;
+    /*height: 70px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
     position: sticky;
     top: -1px;
 }
 
-nav ul{
+.nav-list {/*
     padding: 0;
-    margin: -10px 30px 0px 0px;
+    margin: -10px 30px 0px 0px;*/
+    list-style-type: none;
 }
 nav ul li{
-    padding: 0;
-    margin: 0;
-    display: block;
+    display: inline-block;
     float: right;
+
 }
 
 nav ul li a{
-    display: block;
-    font-weight: bold;
-    height: 100%;
-    box-sizing: border-box;
-    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 20px;
     color: black;
     text-decoration: none;
-    padding: 20px 20px;
     font-size: 20px;
     letter-spacing: 1px;
+    font-weight: bold;
+    height: 100%;
+    text-transform: uppercase;
+
+}
+
+.menu{
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.logo {
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    height: 60px;
+    margin: 5px;
 }
 
 img {
@@ -145,3 +166,66 @@ footer {
   padding: 32px;
 }
 
+@media all and (max-width: 500px){
+    figure{
+        width: 100%;
+    }
+
+    p { margin: 10px; 
+
+    }
+    img {
+        width: 100%;
+
+    }
+
+    nav {
+
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 20px;
+        display: none;
+
+    }
+
+    nav ul li a {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+   .navbar-links {
+        margin: 0 auto;
+        display: block;
+
+        
+    }
+
+    .menu {
+        background-color: #F9EED9;
+        border: none;
+        color: black;
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 28px;
+       
+    } 
+
+    .logo {
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    display: inline-flex;
+
+    }
+
+    .active {
+        display: block;
+    }
+
+
+}
