@@ -49,6 +49,7 @@ nav {
     margin: 0px 25px 0px 0px;
     list-style-type: none;
 }
+
 nav ul li{
     display: inline-block;
     float: right;
@@ -272,9 +273,5 @@ footer {
       .column {
         width: 100%; }
 
-    .footer {
-    background-color: #F9EED9;
-    padding: 30px 20px 30px;
-    }
 
 }
