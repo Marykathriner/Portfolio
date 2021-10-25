@@ -128,6 +128,19 @@ footer {
     padding: 10px 25px;
 }
 
+.backtotop{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: cooper-black-std,serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #F5B9B2;
+    border: #3C2421 solid 3px;
+    color: #3C2421;
+
+}
+
 
 /*Style*/
 * {
@@ -222,7 +235,7 @@ footer {
     .logo {
     box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
     display: inline-flex;
-
+    flex-direction: column;
     }
 
     .active {
