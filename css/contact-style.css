@@ -32,38 +32,6 @@ a {
     color: #5B5851;
 }
 
-nav {
-    background-color: #F9EED9;
-    height: 80px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
-    position: sticky;
-    top: -1px;
-}
-
-nav ul{
-    padding: 0;
-    margin: -10px 30px 0px 0px;
-}
-nav ul li{
-    padding: 0;
-    margin: 0;
-    display: block;
-    float: right;
-}
-
-nav ul li a{
-    display: block;
-    font-weight: bold;
-    height: 100%;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    color: black;
-    text-decoration: none;
-    padding: 20px 20px;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
 .update-banner {
     background-color: #F5B9B2;
     color: #3C2421;
@@ -74,6 +42,61 @@ nav ul li a{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+
+nav {
+    background-color: #F9EED9;
+    color: black;
+    /*height: 70px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+    position: sticky;
+    top: -1px;
+}
+
+.nav-list {/*
+    padding: 0;
+    margin: -10px 30px 0px 0px;*/
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    float: right;
+
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    height: 100%;
+    text-transform: uppercase;
+
+}
+
+.menu{
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.logo {
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    height: 60px;
+    margin: 5px;
+}
+
 
 .sep {
     background-color: black;
@@ -110,3 +133,4 @@ footer {
 .footer a{
     padding: 10px 25px;
 }
+
