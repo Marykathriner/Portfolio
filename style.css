@@ -96,6 +96,19 @@ footer {
     padding: 10px 25px;
 }
 
+.backtotop{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: cooper-black-std,serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #F5B9B2;
+    border: #3C2421 solid 3px;
+    color: #3C2421;
+
+}
+
 .update-banner {
     background-color: #F5B9B2;
     color: #3C2421;
